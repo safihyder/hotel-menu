@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #232323;
+
+}
+.first {
+    background: url("./images/food1.jpeg")center, center/cover;
+}
+.second {
+    background: url("./images/food2.jpeg")center, center/cover;
+}
+.dessert {
+    background: url("./images/food3.jpeg")center, center/cover;
+}
+
+
+div {
+    height:300px;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
+
+}
+h1 {
+    font-family: 'Londrina Shadow', cursive;
+ text-align: center;
+ font-size: 75px;
+ color: #aaaaaa;
+ margin: 60px 0 0 0;
+}
+h2 {
+    text-align: center;
+ color: #bbbbbb;
+ margin: 0 0 70px 0;
+}
+p {
+    color: rgba(255,255,255,1);
+    background: black;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    padding:10px;
+    font-size: 16px;
+    text-align: justify;
+    position:absolute;
+    bottom:0;
+    margin:0;
+    height:30px;
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+}
+  
+    .price {
+        float:right;
+    }
+    small {
+        opacity:0;
+    }
+    .show-description p {
+      height: 170px;
+      font-size:20px;
+      }
+      .show-description small {
+        opacity: 1;
+        }
+    
+        @media (max-width:500px) {
+      h1 {
+        font-size:50px;
+        margin-top:20px;
+        line-height:40px;
+        }
+        h2 {
+          font-size:20px;
+          margin:20px 0 30px 0;
+        }
+        div {
+          margin: 20px 12px 0 12px;
+        }
+        p {
+          font-size:20px;
+          line-height:20px;
+        
+        }
+        small {
+          font-size:16px;
+        }
+      }
